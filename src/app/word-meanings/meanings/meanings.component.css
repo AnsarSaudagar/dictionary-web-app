@@ -1,0 +1,25 @@
+.main {
+  margin-top: 40px;
+}
+
+.source {
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+a {
+  color: inherit;
+  display: flex;
+  align-items: center;
+
+}
+
+.source a img {
+  height: 16px;
+  width: 16px;
+  margin-left: 10px;
+}
+
+.source p {
+  color: #757575;
+}

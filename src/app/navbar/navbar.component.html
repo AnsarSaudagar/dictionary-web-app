@@ -1,0 +1,28 @@
+<!-- <p>navbar works!</p> -->
+<div class="navbar flex">
+    <div class="logo pointer">
+        <img src="../../assets/images/logo.svg" alt>
+    </div>
+    <div class="flex right">
+        <div class="dropdown pointer flex " (click)="hide=hide?false:true">
+            <p>Sans Serif</p>
+            <div class="arrow-down">
+                <img src="../../assets/images/icon-arrow-down.svg" alt>
+            </div>
+            <div class="dropdown-fonts" style="height:150px; width:180px"
+                [ngStyle]="{backgroundColor: dark?'black':'white', 'box-shadow':dark?'#A445ED 0px 7px 29px 0px':'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', display:hide?'none':''}">
+                <p (click)="onClickFont('Sans Serif')">Sans Serif</p>
+                <p (click)="onClickFont('Serif')">Serif</p>
+                <p (click)="onClickFont('Mono')">Mono</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="toggle pointer flex" [ngStyle]="{backgroundColor: dark?'#A445ED':'#979797'}" style="height:30px"
+            (click)="onClickToggle()">
+            <div class="toggle-circle" [ngClass]='{"go-right":dark}'></div>
+        </div>
+        <div class="night pointer" (click)="onClickToggle()">
+            <img src="../../assets/images/icon-moon.svg" alt>
+        </div>
+    </div>
+</div>

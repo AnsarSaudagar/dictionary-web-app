@@ -1,0 +1,6 @@
+<form class="input-main" (ngSubmit)="onSearch()" #f="ngForm">
+
+    <input type="text" placeholder="Search for any word..." [(ngModel)]="word" name="'word'" required>
+    <p style="color: red; margin-top: 10px;" *ngIf="f.invalid && f.touched">Whoops, can’t be empty…</p>
+    <button class="search pointer"><img src="../../assets/images/icon-search.svg" alt=""></button>
+</form>

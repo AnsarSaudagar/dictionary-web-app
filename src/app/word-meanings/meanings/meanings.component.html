@@ -1,0 +1,10 @@
+<div class="main">
+
+    <app-meaning [meaningData]="mean" *ngFor="let mean of meaningsArr"></app-meaning>
+    <hr *ngIf="meaningsArr">
+    <div class="source " *ngIf="meaningsArr">
+        <p>Source</p>
+        <a href="https://en.wiktionary.org/wiki/hello">"https://en.wiktionary.org/wiki/{{word}}" <img
+                src="../../../assets/images/icon-new-window.svg" alt=""></a>
+    </div>
+</div>

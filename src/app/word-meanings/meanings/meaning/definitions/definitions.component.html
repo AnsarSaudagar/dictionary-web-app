@@ -1,0 +1,11 @@
+<div class="main">
+
+    <ul class="definition-list">
+        <li *ngFor="let def of definition">
+            <p [ngStyle]="{color: theme==='light'?'black':'white'}">{{def.definition}}</p>
+            <p style="color: #757575;" class="example" *ngIf="def.example">"{{def.example}}"</p>
+        </li>
+
+        <!-- {{definition |json}} -->
+    </ul>
+</div>

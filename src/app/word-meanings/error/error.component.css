@@ -1,0 +1,23 @@
+.main {
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emoji {
+  height: 64px;
+  width: 64px;
+}
+
+.emoji-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.emoji-para {
+  font-size: 18px;
+  color: #838383;
+  text-align: center;
+}

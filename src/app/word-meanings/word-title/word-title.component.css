@@ -1,0 +1,25 @@
+.main {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.word-title h1 {
+  font-size: 64px;
+}
+
+.word-title p {
+  font-size: 20px;
+  color: #A445ED;
+}
+
+.word-play {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+
+}
+
+/* .word-play:hover {
+  background-color: #A445ED;
+  fill: white;
+} */

@@ -1,0 +1,26 @@
+.line {
+  height: 1px;
+  width: 90%;
+  background: #E9E9E9;
+}
+
+.meaning,
+.synonyms {
+  color: #757575;
+  font-size: 20px;
+}
+
+.synonyms {
+  margin-bottom: 30px;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header p {
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 700;
+}
