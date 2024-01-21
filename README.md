@@ -1,6 +1,6 @@
 # DictionaryWebApp
 
-Live Project:- (`https://dictionary-web-a.firebaseapp.com`)
+Live Project:- (`https://dictionary-web-a.firebaseapp.com`) [Link](https://dictionary-web-a.firebaseapp.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
 
