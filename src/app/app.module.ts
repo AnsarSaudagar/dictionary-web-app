@@ -12,6 +12,8 @@ import { MeaningsComponent } from './word-meanings/meanings/meanings.component';
 import { MeaningComponent } from './word-meanings/meanings/meaning/meaning.component';
 import { DefinitionsComponent } from './word-meanings/meanings/meaning/definitions/definitions.component';
 import { ErrorComponent } from './word-meanings/error/error.component';
+import { SpinnerComponent } from './word-meanings/spinner/spinner.component';
+
 
 @NgModule({
   declarations: [
@@ -24,6 +26,7 @@ import { ErrorComponent } from './word-meanings/error/error.component';
     MeaningComponent,
     DefinitionsComponent,
     ErrorComponent,
+    SpinnerComponent,
   ],
   imports: [
     BrowserModule,
